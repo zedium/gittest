@@ -1,0 +1,11 @@
+{
+    "autoload": {
+        "psr-4": {
+
+            "MyProject\\": "./"
+        }
+    },
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    }
+}

@@ -1,1 +1,4 @@
 *.bak
+vendor
+.idea
+composer.lock
