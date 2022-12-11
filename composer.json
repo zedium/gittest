@@ -1,6 +1,7 @@
 {
     "name": "myproject/src",
     "description": "My test project",
+    "license": "MIT",
     "authors": [
         {
             "name": "Zed",
