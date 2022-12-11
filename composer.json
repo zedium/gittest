@@ -1,11 +1,19 @@
 {
+    "name": "myproject/src",
+    "description": "My test project",
+    "authors": [
+        {
+            "name": "Zed",
+            "email": "ayub.zeitunli@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.5.27"
+    },
     "autoload": {
         "psr-4": {
 
             "MyProject\\": "./"
         }
-    },
-    "require": {
-        "phpunit/phpunit": "^9.5"
     }
 }
