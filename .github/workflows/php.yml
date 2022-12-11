@@ -37,4 +37,9 @@ jobs:
 
     # - name: Run test suite
     #   run: composer run-script test
-
+  release:
+    steps:
+    - name: Zip the component
+      uses: montudor/action-zip@v1
+      with:
+        args: zip -qq -r release.zip dir
