@@ -38,6 +38,7 @@ jobs:
     # - name: Run test suite
     #   run: composer run-script test
   release:
+    needs: build
     runs-on: ubuntu-latest
     steps:
       - name: Zip the component
